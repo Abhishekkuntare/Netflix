@@ -1,0 +1,51 @@
+.trailerNine {
+  opacity: 0.8;
+}
+.trialer__image10 {
+  margin-left: 140px;
+  width: 80%;
+}
+.trialerNine__title {
+  display: flex;
+}
+.trialerNine__des {
+  font-family: cursive;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+.trialerNine__title > p {
+  margin-bottom: 41px;
+  margin-left: 15px;
+  opacity: 0.5;
+}
+.trialerNine__title > button {
+  width: 48px;
+  height: 23px;
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(230, 222, 222);
+  margin-left: 19px;
+  opacity: 0.5;
+}
+.trailerNine__trailer {
+  margin-top: 310px;
+  margin-left: 143px;
+  width: 80%;
+}
+
+@media all and (max-width: 800px) {
+  .trialer__image10 {
+    margin-left: 50px;
+    width: 80%;
+    margin-top: 100px;
+    height: 100%;
+  }
+  .trailerNine__trailer {
+    width: 80%;
+    height: 100%;
+    margin-left: 50px;
+    height: 100%;
+    margin-top: 40px;
+  }
+}

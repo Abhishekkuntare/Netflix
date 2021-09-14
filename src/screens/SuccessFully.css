@@ -1,0 +1,41 @@
+.successfully {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 750px;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 200px;
+}
+.successfully > h1 {
+  color: rgb(21, 22, 20);
+  font-size: 2ch;
+}
+.submit {
+  height: 31px;
+  position: absolute;
+  top: 33%;
+  border-radius: 2px;
+  outline: none;
+  background: transparent;
+  padding: 2px 11px;
+  width: 99px;
+}
+
+@media all and (max-width: 1100px) {
+  .successfully {
+    background-color: steelblue;
+  }
+  .successfully > h1 {
+    font-size: 11px;
+    text-align: center;
+    margin: -149px;
+    padding-top: 99px;
+  }
+
+  .submit {
+    margin-top: -51px;
+    width: 72px;
+    border: 1px solid black;
+  }
+}

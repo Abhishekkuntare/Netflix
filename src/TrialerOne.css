@@ -1,0 +1,51 @@
+.trailerOne {
+  margin-bottom: 310px;
+}
+.trialer__image2 {
+  width: 80%;
+  margin-left: 140px;
+}
+.trialerOne__title {
+  display: flex;
+}
+.trialerOne__des {
+  font-family: cursive;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+.trialerOne__title > p {
+  margin-bottom: 41px;
+  margin-left: 15px;
+  opacity: 0.5;
+}
+.trialerOne__title > button {
+  width: 48px;
+  height: 23px;
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(243, 239, 239);
+  margin-left: 19px;
+  opacity: 0.5;
+}
+.trialerEk__trialer {
+  margin-top: 310px;
+  margin-left: 143px;
+  width: 80%;
+}
+
+@media all and (max-width: 800px) {
+  .trialer__image2 {
+    margin-left: 50px;
+    width: 80%;
+    margin-top: 100px;
+    height: 100%;
+  }
+  .trialerEk__trialer {
+    width: 80%;
+    height: 100%;
+    margin-left: 50px;
+    height: 100%;
+    margin-top: 40px;
+  }
+}

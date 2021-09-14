@@ -1,0 +1,129 @@
+.container1 {
+  padding-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.headOne:hover {
+  color: crimson;
+}
+.itemsOne {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+.itemsOne > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: crimson;
+}
+
+.container2 {
+  padding-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+}
+.itemsTwo {
+  display: flex;
+  flex-direction: column;
+  transform: all 0.5s;
+}
+.itemsTwo > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: crimson;
+}
+.container3 {
+  padding-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 143%;
+}
+.itemsThree {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+.itemsThree > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: crimson;
+}
+.container4 {
+  padding-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  right: -4%;
+  top: 180%;
+}
+.itemsFour {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+.itemsFour > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: crimson;
+}
+
+.container5 {
+  padding-top: 100px;
+
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  right: 37%;
+  top: 220%;
+}
+.fab {
+  margin-left: 30px;
+}
+.fab:hover {
+  color: crimson;
+  cursor: pointer;
+}
+.fas {
+  margin-left: 30px;
+}
+.fas:hover {
+  cursor: pointer;
+  color: crimson;
+}
+.container5 > span {
+  margin-left: 55px;
+  transition: 1s ease-in-out;
+}
+
+.container5 > span:hover {
+  color: crimson;
+  cursor: pointer;
+}
+.copy:hover {
+  font-weight: 400;
+}
+.container5 > p {
+  transition: 1s ease-in-out;
+}
+.container5 > p:hover {
+  text-decoration: underline;
+  color: crimson;
+}
+.container5 > select {
+  width: 50px;
+}
+.dropdown {
+  margin-left: 80px;
+}
